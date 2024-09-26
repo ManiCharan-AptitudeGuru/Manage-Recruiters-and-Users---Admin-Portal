@@ -1,6 +1,9 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/recruiters";
+//http://localhost:5000/
+
+const API_URL =
+  "https://manage-recruiters-and-users-admin-portal.onrender.com/api/recruiters";
 
 export const getRecruiters = async ({
   page = 1,

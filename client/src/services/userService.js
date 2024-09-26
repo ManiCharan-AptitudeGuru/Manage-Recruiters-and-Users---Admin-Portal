@@ -1,6 +1,9 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/users";
+//http://localhost:5000/
+
+const API_URL =
+  "https://manage-recruiters-and-users-admin-portal.onrender.com/api/users";
 
 export const getUsers = async ({ page = 1, search = "" } = {}) => {
   const response = await axios.get(API_URL, { params: { page, search } });
